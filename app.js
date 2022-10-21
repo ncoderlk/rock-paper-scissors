@@ -106,8 +106,7 @@ function game(userChoice) {
         computerScore += 1;
         break;
       case "match was draw":
-        userScore += 1;
-        computerScore += 1;
+        console.log("draw");
         break;
     }
     if (userScore == 5) {
